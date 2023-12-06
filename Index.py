@@ -50,16 +50,12 @@ def main():
 
     To convey the installation steps, I employed `st.header` for each key point and utilized `st.expander` to create 
     collapsible sections. These expanders served to organize the content, providing a structured and user-friendly format. 
-    Each step, articulated with personal pronouns, aimed to guide users through the installation process with a sense of clarity and support.
 
     For the page-building section, I employed a similar strategy, using `st.header` for each segment and `st.expander` to 
-    maintain a neat layout. The content under each header was structured to provide informative and concise details, maintaining 
-    a conversational tone with the use of personal pronouns.
+    maintain a neat layout.
 
     Additionally, I used `st.markdown` with custom HTML styling to adjust font sizes where necessary, ensuring a visually appealing 
-    and readable presentation. Finally, difficulties encountered during development were addressed similarly, utilizing `st.header` 
-    and `st.expander` to organize information, and personal pronouns were employed to offer a narrative that resonates with the user, 
-    creating a more engaging and relatable experience.
+    and readable presentation.
     """
 )
     # Box 3
