@@ -33,9 +33,6 @@ def main():
                - Navigated to the directory containing `app.py` in the terminal.
                - Executed the command `streamlit run app.py`.
                - Opened a web browser and accessed the app at `http://localhost:8501`.
-            
-            6. **Shared Streamlit App (Optional):**
-               - Deployed the app to a cloud platform like Streamlit Sharing or Heroku. Deployment steps varied based on the chosen platform.
         """, unsafe_allow_html=True)
 
     # Box 2
