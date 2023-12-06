@@ -61,7 +61,12 @@ def main():
     # Box 3
     st.header("Difficulties")
     with st.expander("😟"):
-        st.markdown("Lorem ipsum dolor sit amet, consectetur adipiscing elit.", unsafe_allow_html=True)
+        st.markdown("""
+        In the installation process for Streamlit, I faced a setback when the `pip install` command repeatedly failed. 
+        Upon investigation, I discovered the issue stemmed from using an outdated Python version incompatible with Streamlit's requirements. 
+        To resolve this, I upgraded my Python version, successfully overcoming the installation hurdle and emphasizing the importance of version compatibility in the development workflow.
+        """)
+
 
 
 if __name__ == "__main__":
