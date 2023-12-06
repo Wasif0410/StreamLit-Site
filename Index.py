@@ -8,7 +8,7 @@ def main():
 
     # Installlation
     st.header("Installation")
-    with st.expander("Show):
+    with st.expander("Show"):
         st.write(get_random_text())
 
     # Box 2
