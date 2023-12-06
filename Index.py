@@ -5,7 +5,7 @@ def main():
     st.title("CPS530 LAB 10")
     st.subheader("Streamlit Framework")
 
-    # Installlation
+    
     st.header("Installation")
     with st.expander("STEPS"):
         st.markdown("""
@@ -35,7 +35,7 @@ def main():
                - Opened a web browser and accessed the app at `http://localhost:8501`.
         """, unsafe_allow_html=True)
 
-    # Box 2
+
     st.header("Page Building")
     with st.expander("😁"):
        st.markdown(
@@ -55,7 +55,6 @@ def main():
     and readable presentation.
     """
 )
-    # Box 3
     st.header("Difficulties")
     with st.expander("😟"):
         st.markdown("""
