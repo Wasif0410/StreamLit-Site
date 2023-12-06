@@ -41,8 +41,27 @@ def main():
     # Box 2
     st.header("Page Building")
     with st.expander("😁"):
-        st.markdown("Lorem ipsum dolor sit amet, consectetur adipiscing elit.", unsafe_allow_html=True)
+       st.markdown(
+    """
+    In constructing the content for this Streamlit page, I began by incorporating a prominent title at the top, 
+    using `st.title` to display "CPS530 LAB 10." This served as a focal point, capturing immediate attention and 
+    orienting users to the purpose of the page. Following this, I utilized `st.subheader` to introduce the Streamlit 
+    framework in a slightly smaller font size, offering a clear context for the ensuing information.
 
+    To convey the installation steps, I employed `st.header` for each key point and utilized `st.expander` to create 
+    collapsible sections. These expanders served to organize the content, providing a structured and user-friendly format. 
+    Each step, articulated with personal pronouns, aimed to guide users through the installation process with a sense of clarity and support.
+
+    For the page-building section, I employed a similar strategy, using `st.header` for each segment and `st.expander` to 
+    maintain a neat layout. The content under each header was structured to provide informative and concise details, maintaining 
+    a conversational tone with the use of personal pronouns.
+
+    Additionally, I used `st.markdown` with custom HTML styling to adjust font sizes where necessary, ensuring a visually appealing 
+    and readable presentation. Finally, difficulties encountered during development were addressed similarly, utilizing `st.header` 
+    and `st.expander` to organize information, and personal pronouns were employed to offer a narrative that resonates with the user, 
+    creating a more engaging and relatable experience.
+    """
+)
     # Box 3
     st.header("Difficulties")
     with st.expander("😟"):
