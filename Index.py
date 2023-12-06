@@ -9,7 +9,37 @@ def main():
     # Installlation
     st.header("Installation")
     with st.expander("Show"):
-        st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
+        st.write("""
+            1. **Installed Python:**
+               - Downloaded Python from the official website.
+               - Followed the installation instructions for the operating system.
+            
+            2. **Created a Virtual Environment:**
+               - Used the terminal to create a virtual environment using the following commands:
+                 ```bash
+                 pip install virtualenv
+                 python -m venv myenv
+                 myenv\\Scripts\\activate  # On Windows
+                 source myenv/bin/activate  # On macOS/Linux
+                 ```
+            
+            3. **Installed Streamlit:**
+               - Activated the virtual environment.
+               - Ran the command `pip install streamlit` to install Streamlit.
+            
+            4. **Created a Streamlit App File:**
+               - Used a text editor to create a Python file (e.g., `app.py`).
+               - Added basic Streamlit code to the file.
+            
+            5. **Ran Streamlit App Locally:**
+               - Navigated to the directory containing `app.py` in the terminal.
+               - Executed the command `streamlit run app.py`.
+               - Opened a web browser and accessed the app at `http://localhost:8501`.
+            
+            6. **Shared Streamlit App (Optional):**
+               - Deployed the app to a cloud platform like Streamlit Sharing or Heroku. Deployment steps varied based on the chosen platform.
+            """)
+
 
     # Box 2
     st.header("Page Building")
