@@ -19,7 +19,6 @@ def main():
                  pip install virtualenv
                  python -m venv myenv
                  myenv\\Scripts\\activate  # On Windows
-                 source myenv/bin/activate  # On macOS/Linux
                  ```
             
             3. **Installed Streamlit:**
