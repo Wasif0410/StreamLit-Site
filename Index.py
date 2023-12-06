@@ -1,6 +1,5 @@
 # app.py
 import streamlit as st
-import random
 
 def main():
     st.title("CPS530 LAB 10")
@@ -9,7 +8,7 @@ def main():
     # Installlation
     st.header("Installation")
     with st.expander("STEPS"):
-        st.write("""
+        st.markdown("""
             1. **Installed Python:**
                - Downloaded Python from the official website.
                - Followed the installation instructions for the operating system.
@@ -38,18 +37,17 @@ def main():
             
             6. **Shared Streamlit App (Optional):**
                - Deployed the app to a cloud platform like Streamlit Sharing or Heroku. Deployment steps varied based on the chosen platform.
-            """)
-
+        """, unsafe_allow_html=True)
 
     # Box 2
     st.header("Page Building")
     with st.expander("😁"):
-        st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
+        st.markdown("Lorem ipsum dolor sit amet, consectetur adipiscing elit.", unsafe_allow_html=True)
 
     # Box 3
     st.header("Difficulties")
     with st.expander("😟"):
-        st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
+        st.markdown("Lorem ipsum dolor sit amet, consectetur adipiscing elit.", unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
