@@ -6,19 +6,19 @@ def main():
     st.title("CPS530 LAB 10")
     st.subheader("Streamlit Framework")
 
-    # Box 1
-    st.header("Box 1")
-    with st.expander("Click to show random text"):
+    # Installlation
+    st.header("Installation")
+    with st.expander("Show):
         st.write(get_random_text())
 
     # Box 2
-    st.header("Box 2")
-    with st.expander("Click to show random text"):
+    st.header("Page Building")
+    with st.expander("Show"):
         st.write(get_random_text())
 
     # Box 3
-    st.header("Box 3")
-    with st.expander("Click to show random text"):
+    st.header("Difficulties")
+    with st.expander("Show"):
         st.write(get_random_text())
 
 def get_random_text():
