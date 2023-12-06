@@ -8,7 +8,7 @@ def main():
 
     # Installlation
     st.header("Installation")
-    with st.expander("Show"):
+    with st.expander("STEPS"):
         st.write("""
             1. **Installed Python:**
                - Downloaded Python from the official website.
@@ -43,12 +43,12 @@ def main():
 
     # Box 2
     st.header("Page Building")
-    with st.expander("Show"):
+    with st.expander("😁"):
         st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
 
     # Box 3
     st.header("Difficulties")
-    with st.expander("Show"):
+    with st.expander("😟"):
         st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
 
 
